@@ -1,0 +1,1 @@
+Boilerplate to get started with Pothos in Cloudflare workers

@@ -1,0 +1,12 @@
+name = "your-api-env-name"
+main = "src/index.ts"
+compatibility_date = "2022-09-25"
+
+# Add polyfills for node builtin modules and globals
+# Needed for graphql server
+node_compat = true
+
+# Whether you use `<NAME>.<SUBDOMAIN>.workers.dev` to
+# test and deploy your Worker.
+# @default `true`
+workers_dev = true
